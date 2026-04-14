@@ -26,11 +26,20 @@ Unless an entry says otherwise, the environment is:
 |---|---|
 | [KDE Plasma + Wayland friction points — watch-list](ideas/kde-wayland-friction-points-watchlist.md) | AI-generated brainstorm (Claude); items to verify, not confirmed bugs |
 
+## Workarounds
+
+| Script | Addresses |
+|---|---|
+| [`workarounds/handy-paste.sh`](workarounds/handy-paste.sh) | [Clipboard paste garbled on KDE Wayland](bugs/clipboard-paste-modifier-loss-kde-wayland.md) — one-shot paste via `wl-copy` + `ydotool` raw-keycode Ctrl+V, wired into Handy as an External Script. |
+
+See [`workarounds/README.md`](workarounds/README.md) for installation and rollback.
+
 ## Layout
 
 ```
-bugs/   — one file per reproducible bug, intended for upstream filing
-ideas/  — feature requests, UX suggestions, and design notes
+bugs/         — one file per reproducible bug, intended for upstream filing
+ideas/        — feature requests, UX suggestions, and design notes
+workarounds/  — scripts and config snippets that sidestep specific bugs
 ```
 
 ## How I write these
