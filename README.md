@@ -22,7 +22,9 @@ Unless an entry says otherwise, the environment is:
 
 ## Ideas
 
-_No entries yet._
+| Entry | Status |
+|---|---|
+| [KDE Plasma + Wayland friction points — watch-list](ideas/kde-wayland-friction-points-watchlist.md) | AI-generated brainstorm (Claude); items to verify, not confirmed bugs |
 
 ## Layout
 
